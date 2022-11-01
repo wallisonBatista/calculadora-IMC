@@ -82,6 +82,24 @@ const App = () => {
                         </div>
                     )}
                 </div>
+                <div className={styles.anunciosrightSide}>
+                    <script
+                        async
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9393326410573324"
+                    ></script>
+
+                    <ins
+                        className={styles.adsbygoogle}
+                        data-ad-client="ca-pub-9393326410573324"
+                        data-ad-slot="4560904069"
+                        data-ad-format="auto"
+                        data-adtest="on"
+                        data-full-width-responsive="true"
+                    ></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
             </div>
         </div>
     );
